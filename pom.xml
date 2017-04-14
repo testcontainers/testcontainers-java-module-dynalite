@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>dynamodb</artifactId>
+    <artifactId>dynalite</artifactId>
     <dependencies>
         <dependency>
             <groupId>org.testcontainers</groupId>
