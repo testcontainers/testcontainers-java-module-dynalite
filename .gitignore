@@ -6,7 +6,6 @@
 # User-specific stuff:
 .idea
 *.iml
-
 ### Maven template
 target/
 pom.xml.tag
