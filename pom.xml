@@ -10,11 +10,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>dynalite</artifactId>
+    <version>1.0.0</version>
+
     <dependencies>
         <dependency>
             <groupId>org.testcontainers</groupId>
             <artifactId>testcontainers</artifactId>
-            <version>${project.version}</version>
+            <version>${parent.version}</version>
         </dependency>
         <dependency>
             <groupId>org.rnorth.visible-assertions</groupId>
