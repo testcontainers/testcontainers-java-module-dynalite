@@ -9,9 +9,6 @@ import org.junit.Test;
 import static org.rnorth.visibleassertions.VisibleAssertions.assertEquals;
 import static org.rnorth.visibleassertions.VisibleAssertions.assertNotNull;
 
-/**
- * Created by rnorth on 14/04/2017.
- */
 public class DynaliteContainerTest {
 
     @Rule
