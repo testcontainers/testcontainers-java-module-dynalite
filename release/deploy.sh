@@ -4,4 +4,4 @@ openssl aes-256-cbc -K $encrypted_214e54897333_key -iv $encrypted_214e54897333_i
 gpg --fast-import release/codesigning.asc
 
 mvn versions:set -DnewVersion=$TRAVIS_TAG
-mvn deploy -P sign,build-extras --settings release/settings.xml
+mvn deploy -P sign,build-extras -DskipTests --settings release/settings.xml
