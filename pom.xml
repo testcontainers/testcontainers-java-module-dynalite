@@ -5,12 +5,12 @@
     <parent>
         <artifactId>testcontainers-parent</artifactId>
         <groupId>org.testcontainers</groupId>
-        <version>1.2.1</version>
+        <version>1.4.0</version><!-- TESTCONTAINERS RELEASE VERSION -->
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>dynalite</artifactId>
-    <version>1.0.0</version>
+    <version>0-SNAPSHOT</version>
 
     <name>TestContainers :: Dynalite</name>
     <description>
@@ -51,6 +51,7 @@
             <scope>provided</scope>
         </dependency>
     </dependencies>
+
     <build>
         <plugins>
             <plugin>
